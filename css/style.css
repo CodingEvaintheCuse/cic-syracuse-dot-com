@@ -7,31 +7,60 @@ body {
   background-color: orange;
 }
 
+.container {
+  width: 100%;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 700px) {
+  body {
+    background-color: green;
+  }
+
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+@media all and (min-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+
+  .container {
+    width: 1000px;
+  }
+}
 header {
   background-color: black;
   color: white;
   padding: 10px;
 }
 
-main {
-  background-color: white;
-  padding: 10px;
-  color: #375772;
-}
-
 h1 {
   font-family: Arial;
-  font-size: 36px;
+  font-size: 60px;
+  color: limegreen;
 }
 
 h2 {
-  font-family: Arial;
-  font-size: 28px;
+  font-family: Georgia;
+  font-size: 48px;
+  color: red;
+  background-color: #375772;
 }
 
-footer {
-  background-color: #375772;
-  padding: 10px;
+.showcase {
+  background-color: black;
+  color: white;
+}
+.showcase .primary {
+  background-color: purple;
+  min-height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
